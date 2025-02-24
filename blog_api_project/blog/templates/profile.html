@@ -1,0 +1,10 @@
+{% extends "base.html" %}  <!-- 假设有一个 base.html 模板 / Assuming a base.html template exists -->
+{% block content %}
+<div class="container mt-4">
+    <h1>Profile</h1>
+    <p>Username: {{ username }}</p>
+    <p>Email: {{ email }}</p>
+    <p>Joined: {{ date_joined }}</p>
+    <p>Posts: {{ posts_count }}</p>
+</div>
+{% endblock %}

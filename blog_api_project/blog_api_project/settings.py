@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework', # Add REST Framework
-    'blog', # Add our app
+    'blog.apps.BlogConfig',  # 使用完整路径 / Use full path
 ]
 
 AUTH_USER_MODEL = 'blog.User' # Specify custom user model
